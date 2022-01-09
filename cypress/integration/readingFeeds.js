@@ -18,7 +18,7 @@ describe('Reading feeds', () => {
     cy.getAddedBy().should('have.text', username)
   })
 
-  function randomFeed() {
+  function randomFeed () {
     return faker.random.arrayElement(Cypress.env('FEED')) + '?randomId=' + faker.random.number()
   }
 })

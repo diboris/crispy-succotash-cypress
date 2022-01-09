@@ -33,7 +33,7 @@ describe('Adding feeds', () => {
       .should('have.text', feed)
   })
 
-  function randomFeed() {
+  function randomFeed () {
     return faker.random.arrayElement(Cypress.env('FEED')) + '?randomId=' + faker.random.number()
   }
 })
