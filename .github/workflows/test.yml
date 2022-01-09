@@ -11,6 +11,6 @@ jobs:
           node-version: '16'
       - run: |
           git clone https://gitlab.com/sendcloud-public/crispy-succotash.git
-          docker-compose up -d
+          (cd crispy-succotash && docker-compose up -d)
       - run: npm install
       - run: npm run test
