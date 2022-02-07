@@ -1,4 +1,4 @@
-# cypress-crispy-succotash [![Build Actions Status](https://github.com/diboris/crispy-succotash-cypress/actions/workflows/test.yml/badge.svg)](https://github.com/diboris/crispy-succotash-cypress/actions)
+# cypress-crispy-succotash [![Build Actions Status](https://github.com/diboris/crispy-succotash-cypress/actions/workflows/actions.yml/badge.svg)](https://github.com/diboris/crispy-succotash-cypress/actions)
 
 Showcase project that tests [crispy-succotash](https://gitlab.com/sendcloud-public/crispy-succotash) by using [Cypress](https://www.cypress.io/)
 
